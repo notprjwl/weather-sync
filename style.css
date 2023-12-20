@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,600;0,700;0,800;0,900;1,200;1,500;1,600;1,700;1,800&family=Roboto:wght@700&display=swap');
+
+*{
+    font-family: 'Poppins', 'Roboto';
+    margin: 0;
+    margin-top: 5px;
+    padding: 0;
+    user-select: none;
+    box-sizing: border-box;
+    /* background-color: rgb(4, 31, 57); */
+    text-decoration: none;
+}
+
+
+body{
+    background-color: rgb(4, 31, 57);
+}
+
+.container{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    min-height: 14vh;
+}
+
+h1{
+    color: rgb(172, 213, 249);
+    text-shadow: 3px 3px rgb(97, 97, 97);
+    /* word-spacing: 100px; */
+}
+
+
+.gif1, .gif2{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
+
+
+.wrapper {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    opacity: 0.9;
+    flex-direction: column;
+    height: 100%;
+    /* background-color: #040d16;
+    margin: 50px 500px 50px 50px; */
+}
+
+.input-box{
+    font-size: medium;
+    /* font-weight: bold; */
+    /* font-variant: small-caps; */
+    font-style: oblique;
+    color: rgb(0, 0, 0);
+    margin-top: 50px;
+    border-radius: 20px;
+    padding: 5px 10px 5px 10px;
+    border: 0px solid #ccc;
+    background-color: #5b5b5b;
+    outline: none;
+    text-decoration: none !important;
+}
+
+.search-box{
+    background-color: rgba(4, 13, 22, 0.903);
+    /* background-color: #040d16; */
+    padding: 10px 50px auto 50px;
+    border-radius: 1.5em;
+    background-image: url('https://e0.pxfuel.com/wallpapers/738/21/desktop-wallpaper-world-map-black-digital-map.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    min-width: 500px;
+    min-height: 475px;
+    width: fit-content;
+    height: 50%;
+    box-sizing: border-box;
+
+}
+
+.input-box::placeholder{
+    color: rgb(36, 36, 36);  
+}
+
+.get-data{
+    font-size: large;
+    font-style: oblique;
+    font-weight: bold;
+    color: rgb(38, 38, 38);
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    border: 0px solid #ccc;
+    background-color: #5b5b5b;
+    outline: none;
+    cursor: pointer;
+}
+
+#main {
+    color: white;
+}
+
+.please-type, .error-message  {
+    margin-top: 20px;
+}
+
+
