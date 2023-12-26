@@ -1,6 +1,6 @@
 # weather-sync
 
-Weather Sync is a simple web application that utilizes HTML, CSS, and JavaScript to fetch weather data from a weather API and display the current weather status.
+Weather Sync is a simple web application that utilizes HTML, CSS, and JavaScript to fetch weather data from a weather API and display the current weather status. live at: https://notprjwl.github.io/weather-sync/
 
 ## Features
 
